@@ -1,0 +1,110 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #0F45D2;
+    color: #fbff00;
+    z-index: 1000;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-align: center;
+}
+
+.navbar-nav .nav-link.active {
+    color: #1A50BC;
+    background-color: white;
+    font-size: bold;
+}
+
+.nav-link:hover {
+    /* Tive que receber ajuda do ChatGPT nessa parte,
+    o bootstrap estava adicionando o efeito :hover automaticamente,
+    prejudicando a funcionalidade do nav-link*/
+    text-decoration: none;
+    /* Remove o sublinhado */
+    background-color: transparent;
+    /* Remove qualquer cor de fundo */
+    color: #ffffff;
+    /* Mantém a cor original */
+}
+
+#section1 .container {
+    color: #ffffff;
+    background-color:#0055ff;
+    border: #0F45D2 solid 5px;
+    border-radius: 4em;
+    margin: 3em auto;
+    padding-bottom: 2em;
+}
+
+#section1 .titulo {
+    text-align: center;
+    color: #fbff00;
+    padding: 1em;
+}
+
+#section2 .titulo,
+#section3 .titulo {
+    color: #0F45D2;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.card,
+.carousel {
+    margin-bottom: 5%;
+}
+
+.card {
+    height: 98%;
+}
+
+.card-header {
+    border-bottom: 0;
+}
+
+.card-subtitle {
+    margin-bottom: 1em;
+}
+
+.card img {
+    min-height: 38em;
+    max-height: 38em;
+    height: 100%;
+}
+
+#sonic,
+#sonic>.card-header {
+    color: white;
+    background-color: #0D7ADF;
+}
+
+#tails,
+#tails>.card-header {
+    background-color: #ffd000;
+}
+
+#knuckles,
+#knuckles>.card-header {
+    color: white;
+    background-color: #df0d0d;
+}
+
+#shadow,
+#shadow>.card-header {
+    color: white;
+    background-color: #000000;
+}
+
+#silver,
+#silver>.card-header {
+    background-color: silver;
+}
+
+#cream,
+#cream>.card-header {
+    color: #ffffff;
+    background-color: sandybrown;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonicpédia</title>
+    <link rel="stylesheet" href="Biblioteca/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Sonicpédia</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#section1" class="nav-link active">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section2" class="nav-link">Imagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#section3" class="nav-link">Personagens</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="section1">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo">Início</h2>
+                    <div class="col">
+                        <p>Sonic the Hedgehog (ソニック・ザ・ヘッジホッグ Sonikku za Hejjihoggu?) é uma franquia de jogos eletrônicos
+                            de plataforma criada por Yuji Naka e Naoto Oshima da equipe Sonic Team, da Sega, sendo
+                            atualmente administrada por Takashi Iizuka. O primeiro jogo da série Sonic, lançado em 1991,
+                            foi concebido pela divisão da Sega, Sonic Team após um pedido para um novo mascote. O título
+                            foi um sucesso, e foi renovado para várias sequelas, que levaram a Sega a liderança no rumo
+                            dos consoles de video-game da era 16-bit do começo até a metade dos anos 90. Atualmente,
+                            é uma das franquias mais famosas e mais lucrativas da indústria dos videogames. A
+                            franquia é protagonizada por Sonic, o Ouriço, que normalmente junto com seus amigos como a
+                            raposa Tails e o equidna Knuckles, tem que parar os planos de dominação mundial do vilão Dr.
+                            Eggman.
+                        </p>
+                        <p>
+                            Quase todos os jogos da série apresentam um ouriço antropomórfico azul chamado Sonic como o
+                            personagem do jogador central e protagonista. Os jogos detalham a tentativa de Sonic e seus
+                            aliados de salvar o mundo de várias ameaças, principalmente o gênio do mal Dr. Ivo "Eggman"
+                            Robotnik, o antagonista principal da série. O objetivo principal de Robotnik é governar o
+                            mundo; para conseguir isso, ele geralmente tenta destruir Sonic e adquirir as poderosas
+                            Esmeraldas do Caos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo">Imagens</h2>
+                    <div class="col">
+                        <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="3000">
+                                    <img src="https://wallpapercave.com/wp/wp11501023.jpg" class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h2>Personagens de Sonic</h2>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="https://mrwallpaper.com/images/hd/dark-sonic-and-friends-collage-8uvu7ub3gjtg7p96.jpg"
+                                        class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h2>Versões do Sonic</h2>
+                                    </div>
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="https://wallpapers.com/images/hd/sonic-the-hedgehog-pictures-utjzp3owueld38ss.jpg"
+                                        class="d-block w-100">
+                                    <div class="carousel-caption">
+                                        <h2>Filme do Sonic</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide="prev"
+                                class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide="next"
+                                class="carousel-control-next"><span class="carousel-control-next-icon"></span></button>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0"
+                                    class="active"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo">Personagens</h2>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id="sonic">
+                            <div class="card-header"></div>
+                            <img src="sonicimg/SXSG_Sonic.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-title">Sonic</h4>
+                                <h5 class="card-subtitle">the Hedgehog</h5>
+                                <p class="card-text">É o protagonista principal titular da série Sonic the Hedgehog e
+                                    mascote da Sega. Ele é um ouriço antropomórfico nascido com a habilidade de correr
+                                    mais rápido que a velocidade do som, daí seu nome. Como sua espécie sugere, Sonic
+                                    também pode se enrolar em uma bola de concussão, principalmente para atacar
+                                    inimigos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id="tails">
+                            <div class="card-header"></div>
+                            <img src="sonicimg/SDTTailsRender.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-title">Miles Prower</h4>
+                                <h5 class="card-subtitle">Tails</h5>
+                                <p class="card-text">Ele é um jovem filhote de raposa antropomórfico nascido na Ilha
+                                    West Side que, devido a uma anormalidade genética, nasceu com duas caudas gêmeas
+                                    distintas, daí seu apelido. Devido à sua anormalidade, ele é capaz de usar suas
+                                    caudas duplas para voar, girando-as como rotores de helicóptero, e é um gênio da
+                                    mecânica e piloto aéreo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id="knuckles">
+                            <div class="card-header"></div>
+                            <img src="sonicimg/SDT_KnucklesRender.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-title">Knuckles</h4>
+                                <h5 class="card-subtitle">the Echidna</h5>
+                                <p class="card-text"> Ele é uma equidna antropomórfica vermelha de bico curto que é o
+                                    melhor amigo secundário e ex-rival de Sonic. Determinado e sério, mas às vezes
+                                    crédulo, seus traços dominantes são sua força super-humana, e os dois espinhos em
+                                    cada uma de suas mãos, que ele pode usar para cavar ou escalar paredes. Ele também
+                                    pode prender o vento sob seus dreadlocks para pairar no ar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id="shadow">
+                            <div class="card-header"></div>
+                            <img src="sonicimg/Shadow-01.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-title">Shadow</h4>
+                                <h5 class="card-subtitle">the Hedgehog</h5>
+                                <p class="card-text">Ele é um híbrido antropomórfico de ouriço/Black Arms que se
+                                    assemelha a Sonic em muitos aspectos e serve como seu arquirrival e
+                                    aliado ocasional. Shadow foi criado como a "Ultimate Life Form" pelo Prof. Gerald
+                                    Robotnik usando o DNA de Black Doom e é o resultado final do Projeto Shadow.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id="silver">
+                            <div class="card-header"></div>
+                            <img src="sonicimg/TSR_Silver.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-title">Silver</h4>
+                                <h5 class="card-subtitle">the Hedgehog</h5>
+                                <p class="card-text">É um ouriço antropomórfico que vem de duzentos anos no futuro, onde
+                                    o seu objetivo é impedir a ruína do seu tempo resolvendo as catástrofes do passado.
+                                    Para a sua missão, Silver faz uso das suas capacidades telecinéticas, que
+                                    no seu tempo são consideradas normais, o que lhe permite manipular o ambiente com o
+                                    poder da sua mente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card" id="cream">
+                            <div class="card-header"></div>
+                            <img src="sonicimg/SDT_Cream_29.jpeg">
+                            <div class="card-body">
+                                <h4 class="card-title">Cream</h4>
+                                <h5 class="card-subtitle">the Rabbit</h5>
+                                <p class="card-text">É uma coelha antropomórfica, filha de Vanilla, a coelha. É também
+                                    amiga dos Chao, especialmente do seu querido amigo Chao Cheese, que leva consigo
+                                    para todo o lado. Originalmente a viver uma vida idílica com a sua família, . Ela é
+                                    capaz de voar batendo as suas grandes orelhas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+</body>
+
+<script src="Biblioteca/bootstrap.bundle.min.js"></script>
+
+</html>
